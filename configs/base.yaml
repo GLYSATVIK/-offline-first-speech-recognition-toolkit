@@ -1,0 +1,15 @@
+name: base
+seed: 1234
+feature:
+  sample_rate: 16000
+  num_mel_bins: 80
+  frame_length_ms: 25.0
+  frame_shift_ms: 10.0
+  window: povey
+decode:
+  method: ctc_greedy
+  blank_id: 0
+model:
+  kind: linear
+  input_dim: 80
+  vocab_size: 28

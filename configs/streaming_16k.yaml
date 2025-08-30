@@ -1,0 +1,11 @@
+name: streaming-16k
+seed: 1234
+feature:
+  sample_rate: 16000
+  num_mel_bins: 80
+model:
+  kind: linear
+  chunk_size: 16
+  right_context: 4
+decode:
+  method: ctc_greedy

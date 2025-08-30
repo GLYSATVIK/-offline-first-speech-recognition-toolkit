@@ -1,0 +1,9 @@
+name: beam-lm
+seed: 1234
+feature:
+  num_mel_bins: 80
+decode:
+  method: ctc_beam
+  beam_size: 12
+  lm_weight: 0.4
+  prune_threshold: -12.0
