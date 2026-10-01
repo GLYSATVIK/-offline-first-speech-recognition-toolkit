@@ -22,7 +22,7 @@ classifiers = [
     "Topic :: Scientific/Engineering",
 ]
 dependencies = [
-    "numpy>=2.0,<2.2",
+    "numpy>=2.0,<2.3",
     "scipy>=1.13,<1.15",
     "pyyaml>=6.0",
 ]
